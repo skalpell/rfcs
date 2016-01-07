@@ -17,13 +17,14 @@ The `DBMS` of choice must therefore be/have:
  - provide `API`s for the programming language being used for the indexer.
 
 Some viable candidates are:
- - [ ] [sqlite](http://www.sqlite.org/): `RDBMS`
+ - [x] [sqlite](http://www.sqlite.org/): `RDBMS`
    + Most widely used embedded self-contained `RDBMS`.
    + Can index & use memory.
    + `C/C++` `API`
    + Has 2 different `Rust` `API`s, both under active development:
      - https://github.com/dckc/rust-sqlite3
      - https://github.com/linuxfood/rustsqlite
+   + Will be used for now.
  - [ ] [UnQLite](http://unqlite.org/features.html#kv_engine): `noSQL`
    + `C` `API`
    + no `Rust` `API`
