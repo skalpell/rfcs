@@ -1,0 +1,4 @@
+# Only keep markdown files:
+*
+!*.md
+!*/
